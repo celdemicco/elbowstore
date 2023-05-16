@@ -1,0 +1,33 @@
+* {
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Vina Sans', cursive;
+
+}
+
+.grid-container {
+    background: rgb(173, 171, 171);
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 200px 200px 200px;
+    gap: 20px 10px;
+    align-content: space-between;
+    
+}
+
+.item {
+    background: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: grid;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    
+  
+}
+
+.articulo {
+    width: 200px;
+
+}
